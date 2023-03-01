@@ -23,7 +23,7 @@ const Home = () => {
       <div className='w-full'>
         <div className='max-w-[1920px] grid lg:grid-cols-2'>
           <img className='w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] xl:w-[600px] xl:h-[600px] xl:mt-10 mx-auto my-4' src={Logo} alt="/" />
-          <div className='flex flex-col lg:col-span-2 justify-center'>
+          <div className='flex flex-col justify-center'>
             <h1 className='px-10 lg:text-5xl md:text-4xl my-5 sm:text-3xl font-bold py-2'>ABOUT FESTX</h1>
             <p className='px-10 xl:pr-20 2xl:pr-auto lg:pr-0 text-justify lg:text-2xl md:text-2xl sm:text-1xl'>FESTX is an annual symposium hosted by the Department of Computer Science and 
             Business Systems of Sri Sairam Engineering College to promote the spirit of Entrepreneurship and to explore the latest tech trends. 
@@ -52,7 +52,7 @@ const Home = () => {
       <div className='w-full'>
         <div className='max-w-[1920px] grid lg:grid-cols-2'>
           <img className='xl:mt-24 w-[250px] 2xl:mt-10 h-[250px] sm:w-[350px] sm:h-[350px] rounded-2xl lg:mt-40 mx-auto my-4' src={SSEC} alt="/" />
-          <div className='flex flex-col lg:col-span-2'>
+          <div className='flex flex-col'>
             <h1 className='lg:text-5xl md:text-4xl px-10 my-5 sm:text-3xl font-bold py-2'>ABOUT SAIRAM</h1>
             <p className='text-justify 2xl:pr-auto px-10 lg:text-2xl md:text-2xl sm:text-1xl'>Sri Sairam Engineering College, Chennai, established in the year 1995 by 
             MJF.Ln.Leo Muthu, Chairman of Sapthagiri Educational Trust, is a non-profitable and a non-minority institution. A well-defined vision, 
@@ -67,7 +67,7 @@ const Home = () => {
       <div className='w-full'>
         <div className='max-w-[1920px] grid lg:grid-cols-2'>
           <img className='xl:mt-20 w-[250px] 2xl:mt-10 h-[250px] sm:w-[350px] sm:h-[350px] lg:mt-32 rounded-2xl mx-auto my-4' src={CSBS} alt="/" />
-          <div className='flex flex-col lg:col-span-2 2xl:mt-10'>
+          <div className='flex flex-col 2xl:mt-10'>
             <h1 className='lg:text-5xl  px-10 md:text-4xl sm:text-3xl my-5 font-bold py-2'>ABOUT CSBS</h1>
             <p className=' text-justify px-10 2xl:pr-auto lg:text-2xl md:text-2xl sm:text-1xl'>CSBS is a steadily growing department and is gaining popularity among 
             students and parents likewise as Candidates from this field play a vital role in software development and possess the appropriate managerial 
