@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       <div className='w-full'>
         <div className=' grid xl:grid-cols-3 2xl:grid-cols-3'>
-          <img className='w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] xl:w-[400px] xl:h-[400px]  mx-auto mt-10' src={Logo} alt="/" />
+          <img className='w-[400px] h-[400px]  mx-auto mt-10' src={Logo} alt="/" />
           <div className='xl:col-span-2 flex flex-col justify-center'>
             <h1 className='px-10 lg:text-4xl md:text-4xl my-5 sm:text-3xl font-bold py-2'>ABOUT FESTX</h1>
             <p className='px-10 xl:pr-20 2xl:pr-auto lg:pr-auto text-justify lg:text-2xl md:text-2xl sm:text-1xl'>FESTX is an annual symposium hosted by the Department of Computer Science and 
@@ -51,7 +51,7 @@ const Home = () => {
       <br/>
       
         <div className=' grid xl:grid-cols-3'><div>
-          <img className='xl:mt-24 w-[250px] 2xl:mt-10 h-[250px] sm:w-[350px] sm:h-[350px] rounded-2xl lg:mt-40 mx-auto my-4' src={SSEC} alt="/" />
+          <img className='xl:mt-24 w-[250px] 2xl:mt-10 h-[250px] rounded-2xl lg:mt-40 mx-auto my-4' src={SSEC} alt="/" />
           </div><div className='xl:col-span-2 flex flex-col justify-center'>
             <h1 className='lg:text-4xl md:text-4xl px-10 my-5 sm:text-3xl font-bold py-2'>ABOUT SAIRAM</h1>
             <p className='text-justify 2xl:pr-auto px-10 lg:text-2xl md:text-2xl sm:text-1xl'>Sri Sairam Engineering College, Chennai, established in the year 1995 by 
@@ -66,7 +66,7 @@ const Home = () => {
       <br/>
       <div className='w-full'>
         <div className=' grid xl:grid-cols-3'>
-          <img className='xl:mt-20 w-[250px] 2xl:mt-16 h-[250px] sm:w-[350px] sm:h-[350px] lg:mt-32 rounded-2xl mx-auto my-4' src={CSBS} alt="/" />
+          <img className='xl:mt-20 w-[250px] 2xl:mt-16 h-[250px] lg:mt-32 rounded-2xl mx-auto my-4' src={CSBS} alt="/" />
           <div className='xl:col-span-2 flex flex-col justify-center '>
             <h1 className='lg:text-4xl  px-10 md:text-4xl sm:text-3xl my-5 font-bold py-2'>ABOUT CSBS</h1>
             <p className=' text-justify px-10 2xl:pr-auto lg:text-2xl md:text-2xl sm:text-1xl'>CSBS is a steadily growing department and is gaining popularity among 
