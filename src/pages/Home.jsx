@@ -18,7 +18,7 @@ const Home = () => {
         <Typed className='font-bold p-2 md:text-3xl lg:text-4xl sm:text-2xl' strings={["Let's Code Business"]} typeSpeed={40} backSpeed={80} loop/>
         <p className='font-bold p-2 md:text-3xl lg:text-4xl sm:text-2xl'>16th - 17th</p>
         <p className='font-bold p-2 md:text-3xl lg:text-4xl sm:text-2xl'>March</p><br/>
-        <button onClick={eventpage} className='uppercase bg-gradient-to-br from-[#37D5D6] to-[#36096D] w-[300px] rounded-md font-medium lg:text-4xl sm:text-2xl md:text-3xl my-6 mx-auto py-3'>register now!</button>
+        <button onClick={eventpage} className='uppercase bg-gradient-to-br from-[#37D5D6] to-[#36096D] w-[300px] rounded-md font-medium lg:text-3xl sm:text-2xl md:text-3xl my-6 mx-auto py-3'>register now!</button>
       </div>
       <div className='w-full'>
         <div className=' grid xl:grid-cols-3 2xl:grid-cols-3'>
