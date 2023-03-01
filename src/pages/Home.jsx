@@ -25,7 +25,7 @@ const Home = () => {
           <img className='w-[400px] h-[400px]  mx-auto mt-10' src={Logo} alt="/" />
           <div className='xl:col-span-2 flex flex-col justify-center'>
             <h1 className='px-10 lg:text-4xl md:text-4xl my-5 sm:text-3xl font-bold py-2'>ABOUT FESTX</h1>
-            <p className='px-10 xl:pr-20 2xl:pr-auto lg:pr-auto text-justify lg:text-2xl md:text-2xl sm:text-1xl'>FESTX is an annual symposium hosted by the Department of Computer Science and 
+            <p className='px-10 xl:pr-20 2xl:pr-auto lg:pr-auto text-justify lg:text-xl md:text-xl sm:text-1xl'>FESTX is an annual symposium hosted by the Department of Computer Science and 
             Business Systems of Sri Sairam Engineering College to promote the spirit of Entrepreneurship and to explore the latest tech trends. 
             FESTX'23 is a two day programme hosted by the Department of Computer Science and Business Systems which has 6 unique inter-collegiate events.
             </p>
@@ -35,7 +35,7 @@ const Home = () => {
       <div className='w-full py-16'>
         <h1 className='text-center lg:text-4xl md:text-4xl sm:text-3xl font-bold py-2'>WHY FESTX?</h1>
         <div className=' mx-auto grid '>
-          <p className='mx-auto px-10 my-4 text-justify lg:text-2xl md:text-2xl sm:text-1xl'>Entrepreneurship with 
+          <p className='mx-auto px-10 my-4 text-justify lg:text-xl md:text-xl sm:text-1xl'>Entrepreneurship with 
           computer based learning helps us to ideate path-breaking solutions and help start startups and make it a successful one.</p>
         </div>
       </div>
