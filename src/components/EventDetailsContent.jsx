@@ -174,7 +174,7 @@ export const bloodyBuggers = {
       "Teams must stop hacking once the time is up. However, teams are allowed to debug and make small fixes to their programs after time is up.",
       "Projects that violate the Code of Conduct are not allowed.",
       "Teams that make it to the final round will be given up to ten minutes to present their finished project to a panel of judges.",
-      "All the necessary components/Laptop/Equipments/Tools to be brought by participants itself.",
+      "All the necessary components / Laptop / Equipments / Tools to be brought by participants itself.",
       "Jury team Decision will be final.",
     ],
     prize: ["1st prize - Rs.1500", "2nd prize - Rs.1000", "3rd prize - Rs.800"],

@@ -8,12 +8,12 @@ const Navbar = () => {
     const handleNav = () => {setNav(!navs)}
     return(
         <div className="flex justify-between items-center h-24 max-w-[2030px] mx-auto px-4 text-white bg-cover">
-            <h1 className="w-full text-3xl font-cinzel font-bold text-white">FESTX</h1>
+            <Link to="/" className="w-full text-3xl font-cinzel font-bold text-white">FESTX</Link>
             <nav className="lg:flex hidden space-x-5" ref={navRef}>
                 <Link to="/" className="p-4 text-2xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Home</Link>
                 <Link to="/events" className="p-4 text-2xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Events</Link>
-                <Link to="/speakers" className="p-4 text-2xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Speakers</Link>
-                <Link to="/sponsors" className="p-4 text-2xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Sponsors</Link>
+                {/* <Link to="/speakers" className="p-4 text-2xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Speakers</Link> */}
+                {/* <Link to="/sponsors" className="p-4 text-2xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Sponsors</Link> */}
                 <Link to="/contact" className="p-4 text-2xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Contact</Link>
             </nav>
             <div onClick={handleNav} className="block lg:hidden">
@@ -24,8 +24,8 @@ const Navbar = () => {
                 <nav className="uppercase text-xl p-5 flex flex-col" ref={navRef}>
                     <Link to="/" className="p-4 border-b border-b-gray-300">Home</Link>
                     <Link to="/events" className="p-4 border-b border-b-gray-300">Events</Link>
-                    <Link to="/speakers" className="p-4 border-b border-b-gray-300">Speakers</Link>
-                    <Link to="/sponsors" className="p-4 border-b border-b-gray-300">Sponsors</Link>
+                    {/* <Link to="/speakers" className="p-4 border-b border-b-gray-300">Speakers</Link> */}
+                    {/* <Link to="/sponsors" className="p-4 border-b border-b-gray-300">Sponsors</Link> */}
                     <Link to="/contact" className="p-4">Contact</Link>
                 </nav>
             </div>
