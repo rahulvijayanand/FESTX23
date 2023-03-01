@@ -5,7 +5,7 @@ export default function EventItem(props) {
   const navigate=useNavigate();
 
   return (
-    <div className="flex flex-col w-[250px] h-[250px] md:h-[400px] md:w-[400px] border shadow-[0px_0px_40px] shadow-cyan-400 p-5 mt-10 bg-transparent bg-cover	items-center ">
+    <div className="flex flex-col w-[250px] h-[275px] md:h-[400px] md:w-[400px] border shadow-[0px_0px_40px] shadow-cyan-400 p-5 mt-10 bg-transparent bg-cover	items-center ">
         <div className="flex flex-col items-center ">
       <p className="p-2 text-center text-xl md:text-3xl font-semibold">{props.title1}</p>
       <p className="text-white mt-7 md:mt-10 text-6xl md:text-9xl">{props.title2}</p></div>
