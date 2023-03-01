@@ -9,7 +9,7 @@ export default function EventItem(props) {
         <div className="flex flex-col items-center ">
       <p className="p-2 text-center text-xl md:text-3xl font-semibold">{props.title1}</p>
       <p className="text-white mt-7 md:mt-10 text-6xl md:text-9xl">{props.title2}</p></div>
-      <button onClick={() => {navigate(props.title3)}} className="bg-transparent hover:bg-cyan-500 text-white mt-10 font-semibold text-xl md:text-2xl  w-36 h-12 hover:text-white py-2 px-4 border border-white-500 hover:border-transparent rounded">
+      <button onClick={() => {navigate(props.title3)}} className="bg-transparent hover:bg-cyan-500 text-white mt-10 font-semibold text-xl md:text-2xl  w-40 h-12 hover:text-white py-2 px-4 border border-white-500 hover:border-transparent rounded">
         View Details
       </button>
     </div>
