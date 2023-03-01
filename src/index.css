@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 body{
-    background-image: url("./assets/r3.mp4");
+    background-image: url("./assets/webbg.gif");
     background-size:cover;
     background-repeat: no-repeat;
   background-attachment: fixed;
