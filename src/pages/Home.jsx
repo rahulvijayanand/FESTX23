@@ -11,7 +11,7 @@ const Home = () => {
   const eventpage = () => {navigate("/events")}
   return (
     <div className="text-white">
-      <div className="max-w-[1920px] py-32 w-full h-full mx-auto text-center flex flex-col justify-center space-y-0">
+      <div className="max-w-[1920px] py-32 w-full h-full mx-auto lg:mx-auto text-center flex flex-col justify-center space-y-0">
         <p className='font-bold p-2 lg:text-4xl md:text-3xl sm:text-2xl '>SRI SAIRAM ENGINEERING COLLEGE</p>
         <p className='font-bold p-2 lg:text-4xl md:text-3xl sm:text-2xl '>DEPARTMENT OF COMPUTER SCIENCE AND BUSINESS SYSTEMS<br/><br/>SAI TECHNOPHILIA PRESENTS</p>
         <h1 className='md:text-7xl font-cinzel tracking-wider sm:text-6xl text-4xl font-bold md:py-6'>FESTX'23</h1>
