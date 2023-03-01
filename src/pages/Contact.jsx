@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 className='text-center py-5 text-4xl md:text-6xl font-cinzel'>CONTACT</h1>
       <div className="grid place-items-center lg:grid-cols-2 ">
         <Contactitem heading="Staff Co-Ordinators" name2="Mrs. NIRMALA J" mob2="73973 73234" name1="Mr. NARESH KUMAR S" mob1="98416 53088"/>
-        <Contactitem heading="Student Co-Ordinators" name2="AJAI" mob2="89256 31079" name1="LOKESWARI" mob1="73391 12232"/>
+        <Contactitem heading="Student Co-Ordinators" name2="AJAI K" mob2="89256 31079" name1="LOKESWARI S" mob1="73391 12232"/>
       </div>
       <h1 className='text-center mt-10 text-2xl lg:text-3xl'>EVENT CO-ORDINATORS</h1>
       <div className="sm:grid md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 p-5 gap-10 place-items-center">
