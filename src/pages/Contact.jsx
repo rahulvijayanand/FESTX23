@@ -2,7 +2,7 @@ import React from 'react'
 import Contactitem from '../components/Contactitem'
 const Contact = () => {
   return (
-    <div className='text-white mt-20'>
+    <div className='text-white mt-40'>
       <h1 className='text-center py-5 text-4xl md:text-6xl font-cinzel'>CONTACT</h1>
       <div className="grid place-items-center lg:grid-cols-2 ">
         <Contactitem heading="Staff Co-Ordinators" name2="Mrs. NIRMALA J" mob2="+91 73973 73234" name1="Mr. NARESH KUMAR S" mob1="+91 98416 53088"/>
