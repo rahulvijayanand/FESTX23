@@ -8,7 +8,7 @@ const Contact = () => {
         <Contactitem heading="Staff Co-Ordinators" name2="Mrs. NIRMALA J" mob2="73973 73234" name1="Mr. NARESH KUMAR S" mob1="98416 53088"/>
         <Contactitem heading="Student Co-Ordinators" name2="AJAI" mob2="89256 31079" name1="LOKESWARI" mob1="73391 12232"/>
       </div>
-      <h1 className='text-center mt-10 text-4xl'>EVENT CO-ORDINATORS</h1>
+      <h1 className='text-center mt-10 text-2xl lg:text-3xl'>EVENT CO-ORDINATORS</h1>
       <div className="sm:grid md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 p-5 gap-10 place-items-center">
         <Contactitem heading="HACKAHOLIC" name1="AVANTHIKA" mob1="93443 43670" name2="SUJAN" mob2="89393 41756"/>
         <Contactitem heading="BIZ BAZAAR" name1="AVULA NAGA SANJAY" mob1="89395 55757" name2="POOJA" mob2="80723 41630"/>
