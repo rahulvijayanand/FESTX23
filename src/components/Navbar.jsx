@@ -8,13 +8,13 @@ const Navbar = () => {
     const handleNav = () => {setNav(!navs)}
     return(
         <div className="flex fixed w-[100%] top-0 justify-between items-center h-20 mx-auto px-4 text-white bg-slate-900 bg-cover">
-            <Link to="/" className="w-full text-xl font-cinzel font-bold text-white">FESTX</Link>
+            <Link to="/" className="w-full text-xl font-cinzel font-bold text-white" onClick={()=>{window.scrollTo(0, 0)}}>FESTX</Link>
             <nav className="lg:flex hidden space-x-5" ref={navRef}>
-                <Link to="/" className="p-4 text-xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Home</Link>
-                <Link to="/events" className="p-4 text-xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Events</Link>
+                <Link to="/" className="p-4 text-xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg" onClick={()=>{window.scrollTo(0, 0)}}>Home</Link>
+                <Link to="/events" className="p-4 text-xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg" onClick={()=>{window.scrollTo(0, 0)}}>Events</Link>
                 {/* <Link to="/speakers" className="p-4 text-2xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Speakers</Link> */}
                 {/* <Link to="/sponsors" className="p-4 text-2xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Sponsors</Link> */}
-                <Link to="/contact" className="p-4 text-xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Contact</Link>
+                <Link to="/contact" className="p-4 text-xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg" onClick={()=>{window.scrollTo(0, 0)}}>Contact</Link>
             </nav>
             <div onClick={handleNav} className="block lg:hidden">
                 {navs ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
