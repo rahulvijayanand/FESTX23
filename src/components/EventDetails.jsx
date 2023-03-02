@@ -6,7 +6,7 @@ const Round = (props) => {
       {props.rounds.map((item) => (
         <div>
           <p className="font-bold text-2xl lg:text-3xl">{item.title}</p>
-          <ul className="list-disc p-4 text-center text-xl lg:text-2xl">
+          <ul className="list-disc p-4 text-justify text-xl lg:text-2xl">
             {item.content.map((i) => (
               <li>{i}</li>
             ))}
@@ -20,7 +20,7 @@ const Round = (props) => {
 const Rules = (props) => {
   return (
     <div className="p-4">
-      <ul className="list-disc text-xl lg:text-2xl text-center p-4">
+      <ul className="list-disc text-xl lg:text-2xl text-justify p-4">
         {props.rules.map((item) => (
           <li>{item}</li>
         ))}
@@ -55,7 +55,7 @@ const Contact = (props) => {
 
 export default function EventDetails(props) {
   return (
-    <div className="scroll-smooth text-white text-center mt-56 px-12">
+    <div className="scroll-smooth text-white mt-56 px-12">
       <h1 className="text-amber-400	font-bold text-center text-3xl lg:text-4xl">{props.event.title}</h1>
 
       <br />
