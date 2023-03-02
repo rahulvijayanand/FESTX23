@@ -1,6 +1,6 @@
 import React from 'react'
 import EventItem from '../components/EventItem'
-
+import EVENT from "../assets/evnts.png"
 import {SiHackster,SiStartrek} from "react-icons/si"
 import {GiTreasureMap,GiTalk} from "react-icons/gi"
 import {FaCode,FaVideo} from "react-icons/fa"
@@ -10,7 +10,7 @@ import {RiFundsBoxLine} from "react-icons/ri"
 const Events = () => {
   return (
     <div className="text-white mt-40">
-      <h1 className='text-center py-5 text-4xl md:text-6xl font-cinzel'>EVENTS</h1>
+      <img src={EVENT} alt="festx" className='mx-auto w-[300px] md:w-[550px] lg:w-[700px] py-10'/>
       <div className="grid sm:grid md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 p-5 gap-10 place-items-center	">
       <EventItem title1="HACKAHOLIC" title2={<SiHackster/>} title3="/hackaholic"/>
       <EventItem title1="BIZ BAZAAR" title2={<SiStartrek/>} title3="/biz-bazaar"/>
