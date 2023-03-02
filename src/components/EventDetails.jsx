@@ -6,7 +6,7 @@ const Round = (props) => {
       {props.rounds.map((item) => (
         <div>
           <p className="font-bold text-2xl lg:text-3xl">{item.title}</p>
-          <ul className="list-disc p-4 text-justify text-xl lg:text-2xl">
+          <ul className="list-disc p-4 text-justify text-xl lg:text-2xl leading-loose">
             {item.content.map((i) => (
               <li>{i}</li>
             ))}
@@ -20,7 +20,7 @@ const Round = (props) => {
 const Rules = (props) => {
   return (
     <div className="p-4">
-      <ul className="list-disc text-xl lg:text-2xl text-justify p-4">
+      <ul className="list-disc text-xl lg:text-2xl text-justify p-4 leading-loose">
         {props.rules.map((item) => (
           <li>{item}</li>
         ))}
@@ -29,17 +29,17 @@ const Rules = (props) => {
   );
 };
 
-const Prize = (props) => {
-  return (
-    <div className="p-4">
-      <ul className="list-disc text-xl lg:text-2xl p-4">
-        {props.prize.map((item) => (
-          <li>{item}</li>
-        ))}
-      </ul>
-    </div>
-  );
-};
+// const Prize = (props) => {
+//   return (
+//     <div className="p-4">
+//       <ul className="list-disc text-xl lg:text-2xl p-4">
+//         {props.prize.map((item) => (
+//           <li>{item}</li>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// };
 
 const Contact = (props) => {
   return (
@@ -103,14 +103,14 @@ export default function EventDetails(props) {
       </div>
       </div>}
       <br />
-      {props.event.prize && <div>
+      {/* {props.event.prize && <div>
       <h1 className="font-bold text-2xl lg:text-3xl">Prize</h1>
       <hr />
       <div>
         <Prize prize={props.event.prize} />
       </div></div>}
 
-      <br />
+      <br /> */}
       <h1 className="font-bold text-2xl lg:text-3xl">Contact</h1>
       <hr />
       <div>
