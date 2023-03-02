@@ -10,7 +10,7 @@ const Navbar = () => {
     return(
         <div className="flex fixed w-[100%] top-0 justify-between items-center h-20 mx-auto px-4 text-white bg-slate-900 bg-cover">
             <Link to="/" className="w-full text-xl font-cinzel font-bold text-white" onClick={()=>{window.scrollTo(0, 0)}}>
-            <img src={Navlogo} alt="festx" className=' w-[100px] h-[500px]'/>
+            <img src={Navlogo} alt="festx" className=' w-[100px] h-[50px]'/>
             </Link>
             <nav className="lg:flex hidden space-x-5" ref={navRef}>
                 <Link to="/" className="p-4 text-xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg" onClick={()=>{window.scrollTo(0, 0)}}>Home</Link>
