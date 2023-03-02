@@ -41,9 +41,9 @@ export const bloodyBuggers = {
     ],
     prize: ["1st prize - Rs.1500", "2nd prize - Rs.1000", "3rd prize - Rs.800"],
     contact: [
-      "Krishna Kumar - +91 7708077528",
-      "Navin -  +91 7092583650",
-      "Harithaa - +91 9962291235",
+      "Krishna Kumar - 7708077528",
+      "Navin -  7092583650",
+      "Harithaa - 9962291235",
     ],
   };
   
@@ -66,9 +66,8 @@ export const bloodyBuggers = {
     ],
     prize: ["Best Director", "Best Actor/Actress", "Best cinematographer"],
     contact: [
-      "Krishna Kumar - 7708077528",
-      "Navin Kumar - 7092583650",
-      "Harithaa - 9962291235",
+      "Jai Vignesh - 8825645904",
+      "Balaji - 8667858430",
     ],
   };
   
@@ -110,9 +109,8 @@ export const bloodyBuggers = {
     ],
     prize: ["1st prize - Rs.1500", "2nd prize - Rs.1000", "3rd prize - Rs.800"],
     contact: [
-      "Krishna Kumar - +91 7708077528",
-      "Navin -  +91 7092583650",
-      "Harithaa - +91 9962291235",
+      "Divyesh - 8939020427",
+      "Suretha - 9360251179",
     ],
   };
   
@@ -132,8 +130,8 @@ export const bloodyBuggers = {
     ],
      prize: ["1st prize - Rs.1500", "2nd prize - Rs.1000", "3rd prize - Rs.800"],
     contact: [
-      "AVULA NAGA SANJAY - +91 89395 55757",
-      "POOJA -  +91 70925 83650",
+      "Avula Naga Sanjay - 89395 55757",
+      "Pooja - 70925 83650",
     ],
   };
 
@@ -179,8 +177,8 @@ export const bloodyBuggers = {
     ],
     prize: ["1st prize - Rs.1500", "2nd prize - Rs.1000", "3rd prize - Rs.800"],
     contact: [
-      "AVANTHIKA - +91 93443 43670",
-      "SUJAN -  +91 89393 41756",
+      "Avanthika - 93443 43670",
+      "Sujan - 89393 41756",
     ],
   };
 
@@ -197,8 +195,8 @@ export const bloodyBuggers = {
     rules: null,
     prize:null,
     contact: [
-      "AFRIN RUQAYYAH FATHIMA - +91 70106 74056",
-      "KAVIN PRABHAKAR  -  +91 75980 96947",
+      "Afrin Ruqayyah Fathima - 70106 74056",
+      "Kavin Prabhakar - 75980 96947",
     ],
   };
 
@@ -219,8 +217,8 @@ export const bloodyBuggers = {
     ],
     prize: ["1st prize - Rs.1500", "2nd prize - Rs.1000", "3rd prize - Rs.800"],
     contact: [
-      "AFRIN RUQAYYAH FATHIMA - +91 70106 74056",
-      "KAVIN PRABHAKAR  -  +91 75980 96947",
+      "Haribabu - 8668070272",
+      "Sree Lakshmi - 7094081674",
     ],
   };
 
