@@ -201,7 +201,7 @@ export const bloodyBuggers = {
   };
 
   export const pitchup = {
-    title: "PITCH UP",
+    title: "PROPOSE TO INVESTOR",
     description:
       "Ideate-Engage-innovate unique ideas from this platform that helps to brainstorm ideas into utile designs.",
     mode: "Offline",

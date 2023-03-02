@@ -17,7 +17,7 @@ const Events = () => {
       <EventItem title1="TECH TALE" title2={<GiTalk/>} title3="/tech-tale"/>
       <EventItem title1="BLOODY BUGGERS" title2={<FaCode/>} title3="/bloody-buggers"/>
       <EventItem title1="LIGHTS ON" title2={<FaVideo/>} title3="/lights-on"/>
-      <EventItem title1="PITCH UP" title2={<RiFundsBoxLine/>} title3="/pitch-up"/>
+      <EventItem title1="PROPOSE TO INVESTOR" title2={<RiFundsBoxLine/>} title3="/pitch-up"/>
       <EventItem title1="PARAGON QUEST" title2={<GiTreasureMap/>} title3="/paragon-quest"/>
     </div>
     </div>

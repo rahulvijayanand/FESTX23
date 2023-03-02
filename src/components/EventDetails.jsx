@@ -70,16 +70,14 @@ export default function EventDetails(props) {
         <thead>
           <tr>
             <th>Mode</th>
-            <th>Venue</th>
-            <th>Timing</th>
+            
             <th>Date</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>{props.event.mode}</td>
-            <td>{props.event.venue}</td>
-            <td>{props.event.timing}</td>
+            
             <td>{props.event.date}</td>
           </tr>
         </tbody>

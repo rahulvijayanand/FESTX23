@@ -16,7 +16,7 @@ const Contact = () => {
         <Contactitem heading="TECH TALE" name1="AFRIN M" mob1="70106 74056" name2="KAVIN PRABHAKAR RA" mob2="75980 96947"/>
         <Contactitem heading="BLOODY BUGGERS" name1="KRISHNA KUMAR B" mob1="77080 77528" name2="HARITHAA S" mob2="99622 91235"/>
         <Contactitem heading="LIGHTS ON" name1="JAI VIGNESH R" mob1="88256 45904" name2="BALAJI A" mob2="86678 58430"/>
-        <Contactitem heading="PITCH UP" name1="HARIBABU N" mob1="86680 70272" name2="SREE LAKSHMI G" mob2="70940 81674"/>
+        <Contactitem heading="PROPOSE TO INVESTOR" name1="HARIBABU N" mob1="86680 70272" name2="SREE LAKSHMI G" mob2="70940 81674"/>
         <Contactitem heading="PARAGON QUEST" name1="SURETHA S" mob1="93602 51179" name2="DIVYESH S" mob2="89390 20427"/>
       </div>
     </div>
