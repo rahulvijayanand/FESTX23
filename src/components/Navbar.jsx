@@ -7,7 +7,7 @@ const Navbar = () => {
     const [navs,setNav] = useState(false)
     const handleNav = () => {setNav(!navs)}
     return(
-        <div className="flex fixed w-[100%] top-0 justify-between items-center h-24 mx-auto px-4 text-white bg-slate-900 bg-cover">
+        <div className="flex fixed w-[100%] top-0 justify-between items-center h-216 mx-auto px-4 text-white bg-slate-900 bg-cover">
             <Link to="/" className="w-full text-xl font-cinzel font-bold text-white">FESTX</Link>
             <nav className="lg:flex hidden space-x-5" ref={navRef}>
                 <Link to="/" className="p-4 text-xl hover:bg-gradient-to-br from-[#37D5D6] to-[#36096D] rounded-lg">Home</Link>
