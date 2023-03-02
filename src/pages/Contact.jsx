@@ -4,7 +4,7 @@ import CONTACT from "../assets/contact.png"
 const Contact = () => {
   return (
     <div className='text-white mt-40'>
-      <img src={CONTACT} alt="festx" className='mx-auto w-[300px] h-[150px] md:w-[550px] py-10'/>
+      <img src={CONTACT} alt="festx" className='mx-auto w-[300px] h-[150px] py-10'/>
       <div className="grid place-items-center lg:grid-cols-2 ">
         <Contactitem heading="Staff Co-Ordinators" name2="Mrs. NIRMALA J" mob2="73973 73234" name1="Mr. NARESH KUMAR S" mob1="98416 53088"/>
         <Contactitem heading="Student Co-Ordinators" name2="AJAI K" mob2="89256 31079" name1="LOKESWARI S" mob1="73391 12232"/>
