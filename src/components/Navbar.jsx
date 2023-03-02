@@ -23,7 +23,7 @@ const Navbar = () => {
                 {navs ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
             </div>
             <div className={navs ? "fixed left-0 top-0 w-[40%] h-full border-r border-r-gray-900 bg-slate-900 ease-in-out duration-700 lg:hidden" : "fixed left-[-100%]"}>
-            <h1 className="w-full text-3xl font-cinzel font-bold text-white m-4" onClick={()=>{window.scrollTo(0, 0)}} >FESTX</h1>
+            <h1 className="w-full text-3xl font-cinzel font-bold text-white m-4" onClick={()=>{window.scrollTo(0, 0)}} ><img src={Navlogo} alt="festx" className=' w-[100px] h-[30px]'/></h1>
                 <nav className="uppercase text-xl p-5 flex flex-col" ref={navRef}>
                     <Link to="/" className=" p-4 border-b border-b-gray-300" onClick={()=>{window.scrollTo(0, 0)}} >Home</Link>
                     <Link to="/events" className=" p-4 border-b border-b-gray-300" onClick={()=>{window.scrollTo(0, 0)}} >Events</Link>
