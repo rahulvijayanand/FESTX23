@@ -55,7 +55,7 @@ const Contact = (props) => {
 
 export default function EventDetails(props) {
   return (
-    <div className="scroll-smooth text-white mt-56 mx-auto">
+    <div className="scroll-smooth text-white mt-56 px-auto">
       <h1 className="text-amber-400	font-bold text-center text-3xl lg:text-4xl">{props.event.title}</h1>
 
       <br />
