@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Logo from "../assets/festxlogo.png"
 import SSEC from "../assets/ssec.webp"
 import CSBS from "../assets/csbslogo.jpg"
-
+import FESTX from "../assets/festx.png"
 
 const Home = () => {
   const navigate=useNavigate();
