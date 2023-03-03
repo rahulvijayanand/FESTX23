@@ -131,7 +131,7 @@ export const bloodyBuggers = {
      prize: ["1st prize - Rs.1500", "2nd prize - Rs.1000", "3rd prize - Rs.800"],
     contact: [
       "Avula Naga Sanjay - 89395 55757",
-      "Pooja - 70925 83650",
+      "Pooja - 80723 41630",
     ],
   };
 
