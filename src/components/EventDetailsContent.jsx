@@ -50,7 +50,7 @@ export const bloodyBuggers = {
   export const LightsOn = {
     title: "LIGHTS ON",
     description:
-      "The event LIGHTS ON is conducted to present your creative short films. It is an OPEN THEME short film contest . The participants should register for your entry (free registration).The participants have to submit your short films through online. The submission link will beavailable in the website. The submitted films will be shortlisted by the event organizers and finaldecision will be taken by the judge. The announcement of prize winners will be on 15/03/2023and the prize will be distributed on 17/03/2023 (offline mode).",
+      "The event LIGHTS ON is conducted to present your creative short films. It is an OPEN THEME short film contest . The participants should register for your entry (free registration).The participants have to submit your short films through online. The submission link will be available in the website. The submitted films will be shortlisted by the event organizers and finaldecision will be taken by the judge. The announcement of prize winners will be on 15/03/2023and the prize will be distributed on 17/03/2023 (offline mode).",
     mode: "Online",
     venue: "-",
     timing: "8:50 am",
@@ -61,10 +61,10 @@ export const bloodyBuggers = {
       "The content in the film should not have any profanity or abuse",
       "The content should be original and should not have any copyright content",
       "Credits card of the film must be mentioned",
-      "Prizes are given under three categories, Best actor/actress, BestDirector,Best cinematographer",
+      "Prizes are given under three categories, Best actor/actress, BestDirector, Best Film",
       "Judges decision will be final and binding",
     ],
-    prize: ["Best Director", "Best Actor/Actress", "Best cinematographer"],
+    prize: ["Best Director", "Best Actor/Actress", "Best Film"],
     contact: [
       "Jai Vignesh - 8825645904",
       "Balaji - 8667858430",
@@ -78,7 +78,7 @@ export const bloodyBuggers = {
     mode: "Offline",
     venue: "CSBS Lab",
     timing: "8:50 am",
-    date: "16th & 17th",
+    date: "17th",
     rounds: [
       {
         title: "Round 1",
@@ -207,7 +207,7 @@ export const bloodyBuggers = {
     mode: "Offline",
     venue: "Smart Class 1 & 2",
     timing: "10am - 12pm",
-    date: "16th & 17th",
+    date: "17th",
     rounds: null,
     rules: [
       "A perfect setup of innovators is present to whom teams have to showcase their expertise and understanding into building innovative solutions.",
