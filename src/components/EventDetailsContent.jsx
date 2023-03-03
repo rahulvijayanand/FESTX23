@@ -5,7 +5,7 @@ export const bloodyBuggers = {
     mode: "Offline",
     venue: "CSBS Lab",
     timing: "8:50 am",
-    date: "16th & 17th March 2023",
+    date: "16th & 17th March",
     rounds: [
       {
         title: "Aptitude-based Programming",
@@ -54,7 +54,7 @@ export const bloodyBuggers = {
     mode: "Online",
     venue: "-",
     timing: "8:50 am",
-    date: "16th & 17th March 2023",
+    date: "16th & 17th March",
     rounds: null,
     rules: [
       "Length of the film should be minimum 5 mins and should not exceed 15 mins",
@@ -78,7 +78,7 @@ export const bloodyBuggers = {
     mode: "Offline",
     venue: "CSBS Lab",
     timing: "8:50 am",
-    date: "17th March 2023",
+    date: "17th March",
     rounds: [
       {
         title: "Round 1",
@@ -121,7 +121,7 @@ export const bloodyBuggers = {
     mode: "Offline",
      venue: "CSBS Lab",
      timing: "8:50 am",
-    date: "16th & 17th March 2023",
+    date: "16th & 17th March",
      rounds: null,
     rules: [
       "pre-seed, seed-stage or early-stage startups are allowed to apply",
@@ -142,7 +142,7 @@ export const bloodyBuggers = {
     mode: "Offline",
     venue: "CSBS Lab",
     timing: "8:50 am",
-    date: "16th & 17th March 2023",
+    date: "16th & 17th March",
     rounds: [
       {
         title: "Day 1:",
@@ -190,7 +190,7 @@ export const bloodyBuggers = {
     mode: "Offline",
     venue: "Smart Class 1 & 2",
     timing: "10am - 12pm",
-    date: "16th & 17th March 2023",
+    date: "16th & 17th March",
     rounds: null,
     rules: null,
     prize:null,
@@ -207,7 +207,7 @@ export const bloodyBuggers = {
     mode: "Offline",
     venue: "Smart Class 1 & 2",
     timing: "10am - 12pm",
-    date: "17th March 2023",
+    date: "17th March",
     rounds: null,
     rules: [
       "A perfect setup of innovators is present to whom teams have to showcase their expertise and understanding into building innovative solutions.",
