@@ -8,7 +8,7 @@ import FESTX from "../assets/festx.png"
 
 const Home = () => {
   const navigate=useNavigate();
-  const eventpage = () => {navigate("/events")}
+  const eventpage = () => {navigate("/events");window.scrollTo(0,0)}
   return (
     <div className="text-white">
       <div className="max-w-[1920px] py-32 w-full h-full mx-auto text-center flex flex-col justify-center space-y-0">
