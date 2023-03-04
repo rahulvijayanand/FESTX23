@@ -114,6 +114,11 @@ export default function EventDetails(props) {
       <div>
         <Contact contact={props.event.contact} />
       </div>
+      <div className="uppercase bg-[#5304BD] w-[100px] rounded-md font-medium sm:text-2xl md:text-3xl my-6 mx-auto py-3">
+        <a href="//forms.gle/dmdhQdMV3vJL1ezg7" target="_blank" rel="noopener noreferrer">
+          REGISTER
+        </a>
+      </div>
     </div>
   );
 }
