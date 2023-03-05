@@ -11,7 +11,7 @@ const Home = () => {
   const eventpage = () => {navigate("/events");window.scrollTo(0,0)}
   return (
     <div className="text-white">
-      <div className="max-w-[1920px] py-32 w-full h-full mx-auto text-center flex flex-col justify-center space-y-0">
+      <div className="max-w-[1920px] pt-40 w-full h-full mx-auto text-center flex flex-col justify-center space-y-0">
         <p className='font-bold p-2 lg:text-3xl md:text-3xl sm:text-2xl '>SRI SAIRAM ENGINEERING COLLEGE</p>
         <p className='font-bold p-2 lg:text-3xl md:text-3xl sm:text-2xl '>DEPARTMENT OF COMPUTER SCIENCE AND BUSINESS SYSTEMS<br/><br/>SAI TECHNOPHILIA<br/><br/>PRESENTS</p>
         <img src={FESTX} alt="festx" className='mx-auto w-[300px] md:w-[550px] lg:w-[700px] py-10'/>
