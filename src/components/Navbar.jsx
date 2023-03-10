@@ -10,7 +10,7 @@ const Navbar = () => {
     setNav(!navs);
   };
   return (
-    <div className="customtext flex fixed w-[100%] top-0 justify-between items-center h-20 mx-auto px-4 text-white bg-transparent bg-cover">
+    <div className="customtext flex fixed w-[100%] top-0 justify-between items-center h-20 mx-auto px-4 text-white bg-slate-900 bg-cover">
       <Link
         to="/"
         className="text-xl font-cinzel font-bold text-white"
