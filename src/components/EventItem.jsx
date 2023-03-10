@@ -20,7 +20,7 @@ export default function EventItem(props) {
             {props.title2}
           </p>
         </div>
-        <p className="bg-transparent w-full text-white mt-10 font-semibold text-xl md:text-xl border-2  w-40 md:w-44 h-12 hover:text-white py-2 px-4  border-white-500 hover:border-transparent rounded">
+        <p className="bg-transparent w-full text-white mt-10 font-semibold text-xl md:text-xl border-2  w-40 md:w-44 h-12 hover:text-white py-2 px-4  border-white-500 rounded">
           VIEW DETAILS
         </p>
       </div>
