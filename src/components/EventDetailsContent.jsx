@@ -196,7 +196,7 @@ export const bloodyBuggers = {
     prize:null,
     contact: [
       "Afrin Ruqayyah Fathima - 70106 74056",
-      "Kavin Prabhakar - 75980 96947",
+      "Dhiraj Prasad - 99417 12561",
     ],
   };
 
