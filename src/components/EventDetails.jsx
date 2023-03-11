@@ -1,12 +1,4 @@
-import React, { useState } from "react";
-import TabBar from "../components/TabBar";
-
-const tabs = [
-  { label: "Details", value: "tab1", content: <p>Page 2 content</p> },
-  { label: "Rounds", value: "tab2", content: <p>Page 3 content</p> },
-  { label: "Rules", value: "tab3", content: <p>Page 4 content</p> },
-  { label: "Contact", value: "tab4", content: <p>Page 5 content</p> },
-];
+import React from "react";
 
 const Round = (props) => {
   return (
@@ -62,23 +54,15 @@ const Contact = (props) => {
 };
 
 export default function EventDetails(props) {
-  const [activeTab, setActiveTab] = useState(tabs[0].value);
-  const activeContent = tabs.find((tab) => tab.value === activeTab)?.content;
   return (
-    <div className="body-rest scroll-smooth text-white pt-56 pb-20 px-12">
-      <h1 className="text-amber-400	font-bold text-center text-3xl lg:text-4xl">
-        {props.event.title}
-      </h1>
+    <div className="scroll-smooth text-white mt-56 px-12">
+      <h1 className="text-amber-400	font-bold text-center text-3xl lg:text-4xl">{props.event.title}</h1>
 
       <br />
-      <p className="text-xl lg:text-2xl text-justify my-10">
-        {props.event.description}
-      </p>
-
+      <p className="text-xl lg:text-2xl text-justify my-10">{props.event.description}</p>
+      
       <br />
       <br />
-      <TabBar setActiveTab={setActiveTab} activeTab={activeTab} tabs={tabs} />
-      {activeContent}
       <h1 className="font-bold text-2xl lg:text-3xl">Details</h1>
       <hr />
       <br />
@@ -86,39 +70,36 @@ export default function EventDetails(props) {
         <thead>
           <tr>
             <th>Mode</th>
-
+            
             <th>Date</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>{props.event.mode}</td>
-
+            
             <td>{props.event.date}</td>
           </tr>
         </tbody>
       </table>
       <br />
       <br />
-      {props.event.rounds && (
+      {props.event.rounds && 
         <div>
           <h1 className="font-bold text-2xl lg:text-3xl">Rounds</h1>
           <hr />
           <br />
           <Round rounds={props.event.rounds} />
         </div>
-      )}
-      <br />
-      {props.event.rules && (
-        <div>
-          <h1 className="font-bold text-2xl lg:text-3xl">Rules & Guidelines</h1>
-          <hr />
+      }
+      <br />{props.event.rules && <div>
+      <h1 className="font-bold text-2xl lg:text-3xl">Rules & Guidelines</h1>
+      <hr />
 
-          <div>
-            <Rules rules={props.event.rules} />
-          </div>
-        </div>
-      )}
+      <div>
+        <Rules rules={props.event.rules} />
+      </div>
+      </div>}
       <br />
       {/* {props.event.prize && <div>
       <h1 className="font-bold text-2xl lg:text-3xl">Prize</h1>
@@ -133,12 +114,8 @@ export default function EventDetails(props) {
       <div>
         <Contact contact={props.event.contact} />
       </div>
-      <div className="uppercase bg-transparent border w-[150px] rounded-md font-medium sm:text-2xl md:text-2xl mx-auto py-3 text-center hover:bg-violet-700">
-        <a
-          href="//forms.gle/dmdhQdMV3vJL1ezg7"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      <div className="uppercase bg-transparent border w-[150px] rounded-md font-medium sm:text-2xl md:text-2xl my-6 mx-auto py-3 text-center hover:bg-cyan-500">
+        <a href="//forms.gle/dmdhQdMV3vJL1ezg7" target="_blank" rel="noopener noreferrer">
           REGISTER
         </a>
       </div>

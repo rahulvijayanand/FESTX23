@@ -1,5 +1,5 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
+import React from "react"
+import { Routes,Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -10,37 +10,32 @@ import Speakers from "./pages/Speakers";
 import Sponsors from "./pages/Sponsors";
 import Contact from "./pages/Contact";
 
-import Hackaholic from "./pages/Hackaholic";
-import LightsOn from "./pages/Lightson";
-import ParagonQuest from "./pages/Paragonquest";
-import BloodyBuggers from "./pages/Bloodybuggers";
-import Bizbazzar from "./pages/Bizbazzar";
-import Techtale from "./pages/Techtale";
-import Pitchup from "./pages/Pitchup";
+import EventDetails from "./components/EventDetails";
+import { bloodyBuggers, LightsOn, paragonQuest, bizBazaar, hackaholic, techtale, pitchup} from "./components/EventDetailsContent";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <div>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/speakers" element={<Speakers />} />
-          <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/hackaholic" element={<Hackaholic />} />
-          <Route path="/biz-bazaar" element={<Bizbazzar />} />
-          <Route path="/bloody-buggers" element={<BloodyBuggers />} />
-          <Route path="/lights-on" element={<LightsOn />} />
-          <Route path="/paragon-quest" element={<ParagonQuest />} />
-          <Route path="/pitch-up" element={<Pitchup />} />
-          <Route path="/tech-tale" element={<Techtale />} />
+          <Route path="/" element={<Home/>}/>
+          <Route path="/events" element={<Events/>}/>
+          <Route path="/speakers" element={<Speakers/>}/>
+          <Route path="/sponsors" element={<Sponsors/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/hackaholic" element={<EventDetails event={hackaholic}/>}/>
+          <Route path="/biz-bazaar" element={<EventDetails event={bizBazaar}/>}/>
+          <Route path="/bloody-buggers" element={<EventDetails event={bloodyBuggers}/>}/>
+          <Route path="/lights-on" element={<EventDetails event={LightsOn}/>}/>
+          <Route path="/paragon-quest" element={<EventDetails event={paragonQuest}/>}/>
+          <Route path="/pitch-up" element={<EventDetails event={pitchup}/>}/>
+          <Route path="/tech-tale" element={<EventDetails event={techtale}/>}/>
         </Routes>
       </div>
-      <Footer />
+      <Footer/>
     </>
-  );
+  )
 }
 
 export default App;
