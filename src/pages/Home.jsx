@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import { useNavigate } from 'react-router-dom';
 import Logo from "../assets/festxlogo.png"
