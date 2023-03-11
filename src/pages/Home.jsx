@@ -43,9 +43,9 @@ const Home = () => {
     return (
       <div>
         <div className="flex flex-row font-bold items-stretch justify-center text-4xl md:text-3xl lg:text-8xl ">
-          <span className="text-teal-400">{countdown.days}</span>&nbsp;:&nbsp;
+          <span className="text-cyan-400">{countdown.days}</span>&nbsp;:&nbsp;
           <span className="">{countdown.hours}</span>&nbsp;:&nbsp;
-          <span className="text-teal-400">{countdown.minutes}</span>
+          <span className="text-cyan-400">{countdown.minutes}</span>
           &nbsp;:&nbsp;
           <span className="">{countdown.seconds}</span>
         </div>
