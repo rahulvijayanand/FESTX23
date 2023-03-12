@@ -11,7 +11,7 @@ const Events = () => {
   return (
     <div className="text-white mt-40">
       <img src={EVENT} alt="festx" className='mx-auto w-[300px] h-[150px] py-10'/>
-      <div className="grid sm:grid md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 p-5 gap-10 place-items-center	">
+      <div className="grid sm:grid md:grid-cols-1 lg:grid-cols-3 2xl:grid-cols-3 p-5 gap-10 place-items-center	">
       <EventItem title1="HACKAHOLIC" title2={<SiHackster/>} title3="/hackaholic"/>
       <EventItem title1="BIZ BAZAAR" title2={<SiStartrek/>} title3="/biz-bazaar"/>
       <EventItem title1="TECH TALE" title2={<GiTalk/>} title3="/tech-tale"/>
