@@ -28,7 +28,6 @@ const tabs = [
     label: "Contact",
     value: "tab2",
     content: (
-<<<<<<< HEAD
       <table class="border-collapse text-xl lg:text-2xl px-4 py-2 lg:px-8 lg:py-4 text-left">
         <tbody>
           <tr>
@@ -61,44 +60,19 @@ const tabs = [
   },
 ];
 
-<div className="p-4">
-=======
-      <div className="p-4">
->>>>>>> 0d40edc6388ef154b7968f67fbec1e995147d15f
-        <ul className="list-disc text-xl lg:text-2xl p-4">
-          <li>Afrin Ruqayyah Fathima - 70106 74056</li>
-          <li>Kavin Prabhakar - 75980 96947</li>
-        </ul>
-      </div>
-<<<<<<< HEAD
-=======
-    ),
-  },
-];
->>>>>>> 0d40edc6388ef154b7968f67fbec1e995147d15f
-
 const Techtale = () => {
   const [activeTab, setActiveTab] = useState(tabs[0].value);
   const activeContent = tabs.find((tab) => tab.value === activeTab)?.content;
   return (
-<<<<<<< HEAD
     <div className="body3">
       <div className="text-white pt-36 sm:pt-20 md:pt-40 lg:pt-40 xl:pt-40 2xl:pt-40 pb-20 px-12 flex flex-col justify-center items-center mx-auto max-w-full">
-=======
-    <div>
-      <div className="body3 text-white pt-36 sm:pt-20 md:pt-40 lg:pt-40 xl:pt-40 2xl:pt-40 pb-20 px-12 flex flex-col justify-center items-center mx-auto max-w-full">
->>>>>>> 0d40edc6388ef154b7968f67fbec1e995147d15f
         <h1 className="text-amber-400 font-bold text-center text-3xl lg:text-4xl">
           TECH TALE
         </h1>
         <br />
         <div className="flex flex-col lg:flex-row items-center max-w-7xl text-justify">
           <img
-<<<<<<< HEAD
             className="h-[275px] sm:h-[350px] md:h-[350px] lg:h-[400px] xl:h-[450px] 2xl:h-[500px] shadow-[0px_0px_40px] shadow-purple-500 mx-auto object-cover rounded-lg pointer-events-none"
-=======
-            className="h-[150px] sm:h-[200px] md:h-[350px] lg:h-[300px] xl:h-[400px] 2xl:h-[500px] shadow-[0px_0px_40px] shadow-purple-500 mx-auto object-cover rounded-lg"
->>>>>>> 0d40edc6388ef154b7968f67fbec1e995147d15f
             src={TT}
             alt="/"
           />
@@ -123,11 +97,7 @@ const Techtale = () => {
             </p>
             <div className="flex px-10 2xl:pr-auto">
               <img
-<<<<<<< HEAD
                 className="h-[30px] sm:h-[40px] md:h-[40px] lg:h-[50px] xl:h-[50px] 2xl:h-[50px] mt-8"
-=======
-                className="h-[40px] sm:h-[40px] md:h-[40px] lg:h-[50px] xl:h-[50px] 2xl:h-[50px] mt-8"
->>>>>>> 0d40edc6388ef154b7968f67fbec1e995147d15f
                 src={Calendar}
                 alt="/"
               />
@@ -139,11 +109,7 @@ const Techtale = () => {
         </div>
       </div>
 
-<<<<<<< HEAD
       <div className="text-white pb-20 pt-20">
-=======
-      <div className="body-rest text-white pb-20 pt-20">
->>>>>>> 0d40edc6388ef154b7968f67fbec1e995147d15f
         <div className="flex-row justify-center items-center">
           <TabBar
             setActiveTab={setActiveTab}

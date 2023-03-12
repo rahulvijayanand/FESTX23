@@ -11,7 +11,6 @@ const Contact = () => {
           class="mx-auto w-[200px] md:w-[450px] py-10 pointer-events-none"
         />
       </div>
-<<<<<<< HEAD
       <div className="body-rest pt-20 pb-10">
         <Contactitem
           heading="STUDENT CO-ORDINATORS"
@@ -76,17 +75,6 @@ const Contact = () => {
             mob2="+91 89390 20427"
           />
         </div>
-=======
-      <h1 className='text-center mt-10 text-2xl lg:text-3xl'>EVENT CO-ORDINATORS</h1>
-      <div className="sm:grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 p-5 gap-10 place-items-center">
-        <Contactitem heading="HACKAHOLIC" name1="AVANTHIKA P V" mob1="93443 43670" name2="SUJAN B" mob2="89393 41756"/>
-        <Contactitem heading="BIZ BAZAAR" name1="AVULA NAGA SANJAY" mob1="89395 55757" name2="POOJA S" mob2="80723 41630"/>
-        <Contactitem heading="TECH TALE" name1="AFRIN M" mob1="70106 74056" name2="DHIRAJ PRASAD T P" mob2="99417 12561"/>
-        <Contactitem heading="BLOODY BUGGERS" name1="KRISHNA KUMAR B" mob1="77080 77528" name2="HARITHAA S" mob2="99622 91235"/>
-        <Contactitem heading="LIGHTS ON" name1="JAI VIGNESH R" mob1="88256 45904" name2="BALAJI A" mob2="86678 58430"/>
-        <Contactitem heading="PROPOSE TO INVESTOR" name1="HARIBABU N" mob1="86680 70272" name2="SREE LAKSHMI G" mob2="70940 81674"/>
-        <Contactitem heading="PARAGON QUEST" name1="SURETHA S" mob1="93602 51179" name2="DIVYESH S" mob2="89390 20427"/>
->>>>>>> 0d40edc6388ef154b7968f67fbec1e995147d15f
       </div>
     </div>
   );
