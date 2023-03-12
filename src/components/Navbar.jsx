@@ -6,7 +6,7 @@ import Navlogo from "../assets/SECL.png";
 const Navbar = () => {
   const navRef = useRef();
   const [navs, setNav] = useState(false);
-  const [transparency, setTransparency] = useState(100);
+  const [transparency, setTransparency] = useState(0);
 
   const handleNav = () => {
     setNav(!navs);
@@ -20,14 +20,19 @@ const Navbar = () => {
         Math.floor(scrollPosition / 200) * 10
       );
       setTransparency(newTransparency);
-    };    
+    };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
     <div
-      className={`customtext flex fixed w-full top-0 justify-between items-center h-20 mx-auto px-4 text-white bg-transparent bg-cover ${navs ? "bg-gray-800" : ""}`}
-      style={{ backgroundColor: `rgba(0, 0, 0, ${transparency / 100})` }}
+      className={`customtext flex fixed w-full top-0 justify-between items-center h-20 mx-auto px-4 text-white bg-transparent bg-cover ${
+        navs ? "bg-gray-800" : ""
+      }`}
+      style={{
+        backgroundColor: `rgba(0, 0, 0, ${transparency / 100})`,
+        opacity: 1,
+      }}
     >
       <Link
         to="/"
@@ -38,7 +43,10 @@ const Navbar = () => {
       >
         <img src={Navlogo} alt="festx" className="w-[60px] h-[60px]" />
       </Link>
-      <nav className={`lg:flex hidden space-x-5 ${navs ? "block" : "hidden"}`} ref={navRef}>
+      <nav
+        className={`lg:flex hidden space-x-5 ${navs ? "block" : "hidden"}`}
+        ref={navRef}
+      >
         <Link
           to="/"
           className="zoom p-4 transition-transform duration-300 mx-auto hover:scale-150 text-lg"
