@@ -8,7 +8,11 @@ const TabBar = ({ tabs, setActiveTab, activeTab }) => {
           key={tab.value}
           className={`${
             activeTab === tab.value ? "bg-purple-900" : "bg-purple-600"
+<<<<<<< HEAD
           } text-white py-1.5 px-1.5 mx-2 lg:py-2 lg:px-4 rounded-md cursor-pointer`}
+=======
+          } text-white py-2 px-4 mx-2 rounded-md cursor-pointer`}
+>>>>>>> 0d40edc6388ef154b7968f67fbec1e995147d15f
           onClick={() => setActiveTab(tab.value)}
         >
           {tab.label}

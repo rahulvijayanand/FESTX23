@@ -38,6 +38,9 @@
   background-position: center center;
   font-family: Oswald;
 }
+.back{
+  background-image: url("./assets/webbg.gif");
+}
 
 @media only screen and (max-width: 425px) {
   .body {
