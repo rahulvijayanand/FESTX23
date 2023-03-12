@@ -4,7 +4,7 @@ import {FaUser} from "react-icons/fa"
 const Contactitem = (props) => {
   return (
     <div className='text-white'>
-      <div className="mx-auto flex flex-col h-[275px] w-[275px] md:h-[300px] md:w-[300px] border shadow-[0px_0px_40px] shadow-[#ff00ff]  my-10 items-center bg-center">
+      <div className="mx-auto flex flex-col h-[275px] w-[275px] md:h-[300px] md:w-[300px] border shadow-[0px_0px_40px] shadow-[#00ffff]  my-10 items-center bg-center">
         <h1 className='text-xl mt-5 md:mt-10 font-semibold'>{props.heading}</h1>
         <div className='my-10 md:my-14 text-base leading-loose md:leading-loose '>
         <p className='flex flex-row items-center gap-5'><FaUser/>{props.name1}</p>
