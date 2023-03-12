@@ -10,7 +10,7 @@ const Contact = () => {
         <Contactitem heading="Student Co-Ordinators" name2="AJAI K" mob2="89256 31079" name1="LOKESWARI S" mob1="73391 12232"/>
       </div>
       <h1 className='text-center mt-10 text-2xl lg:text-3xl'>EVENT CO-ORDINATORS</h1>
-      <div className="sm:grid md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 p-5 gap-10 place-items-center">
+      <div className="sm:grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 p-5 gap-10 place-items-center">
         <Contactitem heading="HACKAHOLIC" name1="AVANTHIKA P V" mob1="93443 43670" name2="SUJAN B" mob2="89393 41756"/>
         <Contactitem heading="BIZ BAZAAR" name1="AVULA NAGA SANJAY" mob1="89395 55757" name2="POOJA S" mob2="80723 41630"/>
         <Contactitem heading="TECH TALE" name1="AFRIN M" mob1="70106 74056" name2="DHIRAJ PRASAD T P" mob2="99417 12561"/>
