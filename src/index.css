@@ -5,6 +5,21 @@
 @tailwind components;
 @tailwind utilities;
 
+.body2 {
+  background-image: url("./assets/ECBG-min.gif");
+  background-size: cover;
+  background-repeat: repeat;
+  font-family: Oswald;
+  height: 60vh;
+  background-position: center center;
+}
+.body3 {
+  background-image: url("./assets/EBG-min.gif");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  font-family: Oswald;
+}
 .body {
   background-image: url("./assets/webbg.gif");
   background-size: cover;
@@ -22,24 +37,6 @@
 }
 .customtext {
   font-family: Oswald;
-}
-.body2 {
-  background-image: url("./assets/ECBG-min.gif");
-  background-size: cover;
-  background-repeat: repeat;
-  font-family: Oswald;
-  height: 60vh;
-  background-position: center center;
-}
-.body3 {
-  background-image: url("./assets/EBG-min.gif");
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center center;
-  font-family: Oswald;
-}
-.back{
-  background-image: url("./assets/webbg.gif");
 }
 
 @media only screen and (max-width: 425px) {

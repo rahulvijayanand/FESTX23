@@ -17,7 +17,7 @@ const tabs = [
         </thead>
         <tbody>
           <tr>
-            <td className="px-10 py-5">Online</td>
+            <td className="px-10 py-5">Offline</td>
             <td className="px-10 py-5">8:50 AM</td>
           </tr>
         </tbody>
