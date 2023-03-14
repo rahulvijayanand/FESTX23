@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import TabBar from "../components/TabBar";
 import TT from "../assets/TT.png";
 import Calendar from "../assets/calendar.png";
+import sp1 from "../assets/sp1.jpg";
+import sp2 from "../assets/sp2.jpg";
 
 const tabs = [
   {
@@ -103,6 +105,94 @@ const Techtale = () => {
               />
               <p className="text-justify px-5 2xl:pr-auto lg:text-3xl md:text-3xl sm:text-3xl mt-10">
                 16-17th March
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="hidden lg:block">
+        <div className="text-white flex flex-col justify-center items-center mx-auto max-w-full">
+          <p className="text-4xl text-yellow-400">SPEAKERS</p>
+          <table class="border-collapse mt-10 text-md lg:text-2xl px-4 py-2 lg:px-10 lg:py-10">
+            <thead>
+              <tr>
+                <th className="px-10 py-5 text-3xl">Day 1</th>
+                <th className="px-10 py-5 text-3xl">Day 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="px-10 py-2">
+                  <img
+                    className="h-[300px] lg:h-[300px] shadow-[0px_0px_40px] shadow-blue-500 mx-auto object-cover rounded-full pointer-events-none"
+                    src={sp1}
+                    alt="/"
+                  />
+                </td>
+                <td class="px-10 py-2">
+                  <img
+                    className="h-[300px] lg:h-[300px] shadow-[0px_0px_40px] shadow-blue-500 mx-auto object-cover rounded-full pointer-events-none"
+                    src={sp2}
+                    alt="/"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="px-10 py-2 text-center">Mr. Banuchandran Kannan</td>
+                <td class="px-10 py-2 text-center">Mr. Suresh VeeraRaghavan</td>
+              </tr>
+              <tr>
+                <td class="px-10 py-2 text-center">Associate Director</td>
+                <td class="px-10 py-2 text-center">Vice President</td>
+              </tr>
+              <tr>
+                <td class="px-10 py-2 text-center">Cognizant Pvt, Ltd.</td>
+                <td class="px-10 py-2 text-center">Paxel.Co</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div className="block lg:hidden">
+        <div className="w-full text-center">
+          <div className="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4">
+            <p className="text-yellow-400 text-3xl">SPEAKERS</p>
+            <p className="text-white text-2xl mt-10">Day 1</p>
+            <img
+              className="h-[300px] lg:h-[300px] mt-10 shadow-[0px_0px_40px] shadow-blue-500 mx-auto object-cover rounded-full pointer-events-none "
+              src={sp1}
+              alt="/"
+            />
+            <div className="xl:col-span-2 flex flex-col justify-center text-center">
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Mr. Banuchandran Kannan
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Associate Director
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Cognizant Pvt, Ltd.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="w-full text-center">
+          <div className="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4">
+            <p className="text-white text-2xl mt-10">Day 2</p>
+            <img
+              className="h-[300px] lg:h-[300px] mt-10 shadow-[0px_0px_40px] shadow-blue-500 mx-auto object-cover rounded-full pointer-events-none "
+              src={sp2}
+              alt="/"
+            />
+            <div className="xl:col-span-2 flex flex-col justify-center text-center">
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Mr. Suresh VeeraRaghavan
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Vice President
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Paxel.Co
               </p>
             </div>
           </div>
