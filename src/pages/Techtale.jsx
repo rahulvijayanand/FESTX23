@@ -124,14 +124,14 @@ const Techtale = () => {
               <tr>
                 <td class="px-10 py-2">
                   <img
-                    className="h-[300px] lg:h-[300px] shadow-[0px_0px_40px] shadow-blue-500 mx-auto object-cover rounded-full pointer-events-none"
+                    className="h-[300px] lg:h-[300px] mx-auto object-cover rounded-full pointer-events-none"
                     src={sp1}
                     alt="/"
                   />
                 </td>
                 <td class="px-10 py-2">
                   <img
-                    className="h-[300px] lg:h-[300px] shadow-[0px_0px_40px] shadow-blue-500 mx-auto object-cover rounded-full pointer-events-none"
+                    className="h-[300px] lg:h-[300px] mx-auto object-cover rounded-full pointer-events-none"
                     src={sp2}
                     alt="/"
                   />
@@ -159,7 +159,7 @@ const Techtale = () => {
             <p className="text-yellow-400 text-3xl">SPEAKERS</p>
             <p className="text-white text-2xl mt-10">Day 1</p>
             <img
-              className="h-[300px] lg:h-[300px] mt-10 shadow-[0px_0px_40px] shadow-blue-500 mx-auto object-cover rounded-full pointer-events-none "
+              className="h-[300px] lg:h-[300px] mt-10 mx-auto object-cover rounded-full pointer-events-none "
               src={sp1}
               alt="/"
             />
@@ -180,7 +180,7 @@ const Techtale = () => {
           <div className="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4">
             <p className="text-white text-2xl mt-10">Day 2</p>
             <img
-              className="h-[300px] lg:h-[300px] mt-10 shadow-[0px_0px_40px] shadow-blue-500 mx-auto object-cover rounded-full pointer-events-none "
+              className="h-[300px] lg:h-[300px] mt-10 mx-auto object-cover rounded-full pointer-events-none "
               src={sp2}
               alt="/"
             />
