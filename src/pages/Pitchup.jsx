@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import TabBar from "../components/TabBar";
 import PTI from "../assets/PTI.png";
 import Calendar from "../assets/calendar.png";
+import sp4 from "../assets/sp4.jpg";
+import sp5 from "../assets/sp5.jpg";
+import sp6 from "../assets/sp6.jpg";
+import sp7 from "../assets/sp7.png";
 
 const tabs = [
   {
@@ -104,7 +108,7 @@ const Pitchup = () => {
           />
 
           <div className="xl:col-span-2 flex flex-col justify-center ">
-            <p className="text-justify px-10 2xl:pr-auto lg:text-2xl md:text-3xl sm:text-xl mt-10">
+            <p className="text-justify px-10 2xl:pr-auto lg:text-2xl md:text-3xl sm:text-2xl mt-10">
               Ideate-Engage-innovate unique ideas from this platform that helps
               to brainstorm ideas into utile designs.
             </p>
@@ -116,6 +120,154 @@ const Pitchup = () => {
               />
               <p className="text-justify px-5 2xl:pr-auto lg:text-3xl md:text-3xl sm:text-3xl mt-10">
                 17th March
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="hidden lg:block">
+        <div className="text-white flex flex-col justify-center items-center mx-auto max-w-full">
+          <p className="text-4xl text-yellow-400">OUR INVESTORS</p>
+          <table class="border-collapse mt-10 text-md lg:text-2xl px-4 py-2 lg:px-10 lg:py-10">
+            <tbody>
+              <tr>
+                <td class="px-10 py-2">
+                  <img
+                    className="h-[250px] lg:h-[160px] xl:h-[250px] mx-auto object-cover rounded-full pointer-events-none"
+                    src={sp5}
+                    alt="/"
+                  />
+                </td>
+                <td class="px-10 py-2">
+                  <img
+                    className="h-[250px] lg:h-[160px] xl:h-[250px] mx-auto object-cover rounded-full pointer-events-none"
+                    src={sp6}
+                    alt="/"
+                  />
+                </td>
+                <td class="px-10 py-2">
+                  <img
+                    className="h-[250px] lg:h-[160px] xl:h-[250px] mx-auto object-cover rounded-full pointer-events-none"
+                    src={sp4}
+                    alt="/"
+                  />
+                </td>
+                <td class="px-10 py-2">
+                  <img
+                    className="h-[250px] lg:h-[160px] xl:h-[250px] mx-auto object-cover rounded-full pointer-events-none"
+                    src={sp7}
+                    alt="/"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Mr. Ashwin Ganesh</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Mr. Subhankar Nanda</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Mr. Senthamil Arasan A</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Ms. C Aarthi Ram</td>
+              </tr>
+              <tr>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">
+                  Head of Operations (South)
+                </td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Founder</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Project Lead</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">
+                  Head Of Operations at MCC
+                </td>
+              </tr>
+              <tr>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">We Founder Circle</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Youth India Foundation</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">
+                  Chennai Metro Hub - StartupTN
+                </td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">MRF Innovation Park</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div className="block lg:hidden">
+        <div className="w-full text-center">
+          <div className="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4">
+            <p className="text-yellow-400 text-3xl">OUR INVESTORS</p>
+            <img
+              className="h-[250px] lg:h-[250px] mt-10 mx-auto object-cover rounded-full pointer-events-none "
+              src={sp5}
+              alt="/"
+            />
+            <div className="xl:col-span-2 flex flex-col justify-center text-center">
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Mr. Ashwin Ganesh
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Head of Operations (South)
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                We Founder Circle
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="w-full text-center">
+          <div className="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4">
+            <img
+              className="h-[250px] lg:h-[250px] mt-10 mx-auto object-cover rounded-full pointer-events-none "
+              src={sp6}
+              alt="/"
+            />
+            <div className="xl:col-span-2 flex flex-col justify-center text-center">
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Mr. Subhankar Nanda
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Founder
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Youth India Foundation
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="w-full text-center">
+          <div className="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4">
+            <img
+              className="h-[300px] lg:h-[300px] mt-10 mx-auto object-cover rounded-full pointer-events-none "
+              src={sp4}
+              alt="/"
+            />
+            <div className="xl:col-span-2 flex flex-col justify-center text-center">
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Mr. Senthamil Arasan A
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Project Lead
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Chennai Metro Hub - StartupTN
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="w-full text-center">
+          <div className="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4">
+            <img
+              className="h-[300px] lg:h-[300px] mt-10 mx-auto object-cover rounded-full pointer-events-none "
+              src={sp7}
+              alt="/"
+            />
+            <div className="xl:col-span-2 flex flex-col justify-center text-center">
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Ms. C Aarthi Ram
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                Head Of Operations at MCC
+              </p>
+              <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
+                MRF Innovation Park
               </p>
             </div>
           </div>

@@ -3,7 +3,8 @@ import TabBar from "../components/TabBar";
 import TT from "../assets/TT.png";
 import Calendar from "../assets/calendar.png";
 import sp1 from "../assets/sp1.jpg";
-import sp2 from "../assets/sp2.jpg";
+import sp3 from "../assets/sp3.jpg";
+
 
 const tabs = [
   {
@@ -110,6 +111,7 @@ const Techtale = () => {
           </div>
         </div>
       </div>
+
       <div className="hidden lg:block">
         <div className="text-white flex flex-col justify-center items-center mx-auto max-w-full">
           <p className="text-4xl text-yellow-400">SPEAKERS</p>
@@ -124,35 +126,36 @@ const Techtale = () => {
               <tr>
                 <td class="px-10 py-2">
                   <img
-                    className="h-[300px] lg:h-[300px] mx-auto object-cover rounded-full pointer-events-none"
+                    className="h-[250px] lg:h-[160px] xl:h-[250px] mx-auto object-cover rounded-full pointer-events-none"
                     src={sp1}
                     alt="/"
                   />
                 </td>
                 <td class="px-10 py-2">
                   <img
-                    className="h-[300px] lg:h-[300px] mx-auto object-cover rounded-full pointer-events-none"
-                    src={sp2}
+                    className="h-[250px] lg:h-[160px] xl:h-[250px] mx-auto object-cover rounded-full pointer-events-none"
+                    src={sp3}
                     alt="/"
                   />
                 </td>
               </tr>
               <tr>
-                <td class="px-10 py-2 text-center">Mr. Banuchandran Kannan</td>
-                <td class="px-10 py-2 text-center">Mr. Suresh VeeraRaghavan</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Mr. Banuchandran Kannan</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Mr. Akilan S</td>
               </tr>
               <tr>
-                <td class="px-10 py-2 text-center">Associate Director</td>
-                <td class="px-10 py-2 text-center">Vice President</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Associate Director</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Co-Founder & Director of Sales</td>
               </tr>
               <tr>
-                <td class="px-10 py-2 text-center">Cognizant Pvt, Ltd.</td>
-                <td class="px-10 py-2 text-center">Paxel.Co</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Cognizant Pvt, Ltd.</td>
+                <td class="px-10 py-2 lg:text-xl xl:text-2xl text-center">Leap Spring</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
+
       <div className="block lg:hidden">
         <div className="w-full text-center">
           <div className="flex flex-col lg:flex-row items-center gap-2 max-w-7xl mx-auto prose dark:prose-dark text-justify p-4">
@@ -181,18 +184,18 @@ const Techtale = () => {
             <p className="text-white text-2xl mt-10">Day 2</p>
             <img
               className="h-[300px] lg:h-[300px] mt-10 mx-auto object-cover rounded-full pointer-events-none "
-              src={sp2}
+              src={sp3}
               alt="/"
             />
             <div className="xl:col-span-2 flex flex-col justify-center text-center">
               <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
-                Mr. Suresh VeeraRaghavan
+                Mr. Akilan S
               </p>
               <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
-                Vice President
+                Co-Founder & Director of Sales
               </p>
               <p className="text-center text-white 2xl:pr-auto lg:text-2xl lg:mt-20 text-2xl mt-5">
-                Paxel.Co
+                Leap Spring
               </p>
             </div>
           </div>

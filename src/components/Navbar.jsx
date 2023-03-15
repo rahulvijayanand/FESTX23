@@ -12,6 +12,13 @@ const Navbar = () => {
     setNav(!navs);
   };
 
+  const handleLinkClick = () => {
+    setNav(false);
+  };
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -111,7 +118,8 @@ const Navbar = () => {
             to="/"
             className=" p-4 border-b border-b-gray-300"
             onClick={() => {
-              window.scrollTo(0, 0);
+              handleLinkClick();
+              scrollToTop();
             }}
           >
             Home
@@ -120,7 +128,8 @@ const Navbar = () => {
             to="/events"
             className=" p-4 border-b border-b-gray-300"
             onClick={() => {
-              window.scrollTo(0, 0);
+              handleLinkClick();
+              scrollToTop();
             }}
           >
             Events
@@ -131,7 +140,8 @@ const Navbar = () => {
             to="/contact"
             className=" p-4"
             onClick={() => {
-              window.scrollTo(0, 0);
+              handleLinkClick();
+              scrollToTop();
             }}
           >
             Contact
