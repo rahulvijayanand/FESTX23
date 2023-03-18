@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Typed from "react-typed";
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/festxlogo.png";
@@ -8,38 +8,6 @@ import FESTX from "../assets/festx.png";
 
 const Home = () => {
   function Countdown() {
-    const [countdown, setCountdown] = useState({
-      days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0,
-    });
-
-    useEffect(() => {
-      const countdownDate = new Date("2023-03-16").getTime();
-
-      const interval = setInterval(() => {
-        const now = new Date().getTime();
-        const distance = countdownDate - now;
-
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor(
-          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        setCountdown({
-          days: days < 10 ? `0${days}` : days,
-          hours: hours < 10 ? `0${hours}` : hours,
-          minutes: minutes < 10 ? `0${minutes}` : minutes,
-          seconds: seconds < 10 ? `0${seconds}` : seconds,
-        });
-      }, 1000);
-
-      return () => clearInterval(interval);
-    }, []);
-
     return (
       <div>
         <div className="flex flex-row items-stretch justify-center text-4xl md:text-3xl lg:text-8xl ">
