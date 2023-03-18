@@ -43,11 +43,11 @@ const Home = () => {
     return (
       <div>
         <div className="flex flex-row items-stretch justify-center text-4xl md:text-3xl lg:text-8xl ">
-          <span className="text-violet-700">{countdown.days}</span>&nbsp;:&nbsp;
-          <span className="">{countdown.hours}</span>&nbsp;:&nbsp;
-          <span className="text-violet-700">{countdown.minutes}</span>
+          <span className="text-violet-700">00</span>&nbsp;:&nbsp;
+          <span className="">00</span>&nbsp;:&nbsp;
+          <span className="text-violet-700">00</span>
           &nbsp;:&nbsp;
-          <span className="">{countdown.seconds}</span>
+          <span className="">00</span>
         </div>
       </div>
     );

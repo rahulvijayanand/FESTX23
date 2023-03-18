@@ -1,12 +1,4 @@
-import React, { useState } from "react";
-import TabBar from "../components/TabBar";
-
-const tabs = [
-  { label: "Details", value: "tab1", content: <p>Page 2 content</p> },
-  { label: "Rounds", value: "tab2", content: <p>Page 3 content</p> },
-  { label: "Rules", value: "tab3", content: <p>Page 4 content</p> },
-  { label: "Contact", value: "tab4", content: <p>Page 5 content</p> },
-];
+import React from "react";
 
 const Round = (props) => {
   return (
@@ -62,8 +54,6 @@ const Contact = (props) => {
 };
 
 export default function EventDetails(props) {
-  const [activeTab, setActiveTab] = useState(tabs[0].value);
-  const activeContent = tabs.find((tab) => tab.value === activeTab)?.content;
   return (
     <div className="body-rest scroll-smooth text-white pt-56 pb-20 px-12">
       <h1 className="text-amber-400	font-bold text-center text-3xl lg:text-4xl">
@@ -77,8 +67,6 @@ export default function EventDetails(props) {
 
       <br />
       <br />
-      <TabBar setActiveTab={setActiveTab} activeTab={activeTab} tabs={tabs} />
-      {activeContent}
       <h1 className="font-bold text-2xl lg:text-3xl">Details</h1>
       <hr />
       <br />
