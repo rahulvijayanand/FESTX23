@@ -24,7 +24,7 @@ const Navbar = () => {
       const scrollPosition = window.scrollY;
       const newTransparency = Math.min(
         100,
-        Math.floor(scrollPosition / 200) * 10
+        Math.floor(scrollPosition / 1) * 10
       );
       setTransparency(newTransparency);
     };
